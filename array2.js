@@ -20,11 +20,13 @@ console.log("Length of an array : ", songs.length);
 
 //  ---------- 2. -----------
 
+console.log("Add two new songs at begining : ");
 songs.unshift("Bohemian Rhapsody", "Blind Light");
 console.log(songs);
 
 
 //  ---------- 3. -----------
 
+console.log("Remove last song : ");
 songs.pop([4]);
 console.log(songs);
