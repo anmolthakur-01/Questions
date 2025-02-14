@@ -11,6 +11,20 @@ songs = [
   "Uptown Funk",
 ];
 
+//  ---------- 1. -----------
+
 console.log("The entire array : ", songs);
-console.log("Type of an array : ", typeof songs);
+console.log("Type of an array : ", typeof(songs));
 console.log("Length of an array : ", songs.length);
+
+
+//  ---------- 2. -----------
+
+songs.unshift("Bohemian Rhapsody", "Blind Light");
+console.log(songs);
+
+
+//  ---------- 3. -----------
+
+songs.pop([4]);
+console.log(songs);
