@@ -6,31 +6,37 @@
 
 arr = ["pho", "Pizza", "naan", "chicken", "Roti"];
 
+
 // ------------- 1. -------------
 
-// for(x in arr){
-//     console.log(arr[x]);
-// }
+console.log("Traverse an array using for in : ");
+for(x in arr){
+    console.log(arr[x]);
+}
 
-// for(y of arr){
-//     console.log(y);
-// }
+console.log("Traverse an array using for of : ");
+for(y of arr){
+    console.log(y);
+}
 
-// for(i=0;i<arr.length;i++){
-//     // console.log(i);
-//     console.log(arr[i]);
-// }
+console.log("Traverse an array using for loop : ");
+for(i=0;i<arr.length;i++){
+    console.log(arr[i]);
+}
+
 
 //  ------------- 2. -------------
 
-// console.log(arr[3]);
+console.log("Dish at 4 position : ", arr[3]);
+
 
 //  ------------- 3. -------------
 
-// arr.shift(arr[0]);
-// console.log(arr);
+arr.shift(arr[0]);
+console.log("Delete dish at start :", arr);
+
 
 //  ------------- 4. -------------
 
-// arr.push("Gheer", "Garlic bread");
-// console.log(arr);
+arr.push("Gheer", "Garlic bread");
+console.log("insert two new dishes in the end : ", arr);
