@@ -6,7 +6,7 @@
 
 arr = ["pho", "Pizza", "naan", "chicken", "Roti"];
 
-// ----- 1. -----
+// ------------- 1. -------------
 
 // for(x in arr){
 //     console.log(arr[x]);
@@ -21,16 +21,16 @@ arr = ["pho", "Pizza", "naan", "chicken", "Roti"];
 //     console.log(arr[i]);
 // }
 
-//  ----- 2. -----
+//  ------------- 2. -------------
 
 // console.log(arr[3]);
 
-//  ----- 3. -----
+//  ------------- 3. -------------
 
 // arr.shift(arr[0]);
 // console.log(arr);
 
-//  ----- 4. -----
+//  ------------- 4. -------------
 
-arr.push("Gheer", "Garlic bread");
-console.log(arr);
+// arr.push("Gheer", "Garlic bread");
+// console.log(arr);
